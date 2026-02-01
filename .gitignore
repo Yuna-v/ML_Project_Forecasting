@@ -1,1 +1,28 @@
+
+# Large CSV files
 *.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Data directories (keep structure, ignore content)
+data/*.csv
+!data/.gitkeep
+
+# Model outputs
+*.png
+*.ows
+*.pages
