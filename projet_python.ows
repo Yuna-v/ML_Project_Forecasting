@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="df_europe_mean_lags_selected" position="(-973.6615232987044, 296.23339077249557)" />
+		<node id="1" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Linear Regression" position="(-606.7567261884534, 105.30685610552004)" />
+		<node id="2" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Performances" position="(-469.2633868132559, 103.03606993462648)" />
+		<node id="3" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Random Forest" position="(-325.25399655593515, 341.7394978596859)" />
+		<node id="4" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Performances" position="(-160.5681285388432, 341.47046794989103)" />
+		<node id="5" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="SVM" position="(-514.7704472898138, 462.6239225834814)" />
+		<node id="6" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Performances" position="(-363.74159520896615, 503.94395385175176)" />
+		<node id="7" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Lasso" position="(-608.6345853151086, 197.7101435851701)" />
+		<node id="8" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Performances" position="(-490.07777662672083, 197.82501409477783)" />
+		<node id="9" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="XGBoost Regressor" position="(-335.467754057488, 254.05103062967393)" />
+		<node id="10" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Performances" position="(-170.9778863400661, 248.78787273493728)" />
+		<node id="11" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="MLP 2" position="(-447.30147418212414, 395.88879394267934)" />
+		<node id="12" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Performances" position="(-267.2680396954152, 439.6953162775652)" />
+		<node id="13" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="df_europe_mean_lags_selected" position="(72.22868626219162, 274.4394480090359)" />
+		<node id="14" name="Form Timeseries" qualified_name="orangecontrib.timeseries.widgets.owtabletotimeseries.OWTableToTimeseries" project_name="Orange3-Timeseries" version="" title="Form Timeseries (1)" position="(228.60239760239807, 276.0425407925411)" />
+		<node id="15" name="ARIMA Model" qualified_name="orangecontrib.timeseries.widgets.owarimamodel.OWARIMAModel" project_name="Orange3-Timeseries" version="" title="ARIMA Model" position="(385.163483575248, 267.3083778966136)" />
+		<node id="16" name="Line Chart" qualified_name="orangecontrib.timeseries.widgets.owlinechart.OWLineChart" project_name="Orange3-Timeseries" version="" title="Line Chart" position="(609.8693659281895, 474.3672014260253)" />
+		<node id="17" name="Model Evaluation" qualified_name="orangecontrib.timeseries.widgets.owmodelevaluation.OWModelEvaluation" project_name="Orange3-Timeseries" version="" title="Model Evaluation" position="(603.9870129870129, 86.13190730837732)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="3" source_node_id="3" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="4" source_node_id="0" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="5" source_node_id="5" sink_node_id="6" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="6" source_node_id="0" sink_node_id="7" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="7" source_node_id="7" sink_node_id="8" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="8" source_node_id="0" sink_node_id="9" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="9" source_node_id="9" sink_node_id="10" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="10" source_node_id="0" sink_node_id="11" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="11" source_node_id="11" sink_node_id="12" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="12" source_node_id="13" sink_node_id="14" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="13" source_node_id="14" sink_node_id="15" source_channel="Time series" sink_channel="Time series" enabled="true" source_channel_id="time_series" sink_channel_id="time_series" />
+		<link id="14" source_node_id="15" sink_node_id="16" source_channel="Forecast" sink_channel="Forecast" enabled="true" source_channel_id="forecast" sink_channel_id="forecast" />
+		<link id="15" source_node_id="14" sink_node_id="16" source_channel="Time series" sink_channel="Time series" enabled="true" source_channel_id="time_series" sink_channel_id="time_series" />
+		<link id="16" source_node_id="15" sink_node_id="17" source_channel="Time series model" sink_channel="Time series model" enabled="true" source_channel_id="learner" sink_channel_id="time_series_model" />
+		<link id="17" source_node_id="14" sink_node_id="17" source_channel="Time series" sink_channel="Time series" enabled="true" source_channel_id="time_series" sink_channel_id="time_series" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVgBMAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIxEL1VzZXJzL2Zhbm55L0Rlc2t0b3AvUHJvamV0X01ML2RhdGEvZGZfZXVyb3BlX21lYW5f
+bGFnc19zZWxlY3RlZC5jc3aUjAZwcmVmaXiUjAdiYXNlZGlylIwHcmVscGF0aJSMJWRhdGEvZGZf
+ZXVyb3BlX21lYW5fbGFnc19zZWxlY3RlZC5jc3aUjAV0aXRsZZSMAJSMBXNoZWV0lGgQjAtmaWxl
+X2Zvcm1hdJROdWJoBimBlH2UKGgJjDsvVXNlcnMvZmFubnkvRGVza3RvcC9Qcm9qZXRfTUwvZGF0
+YS9kZl9ldXJvcGVfbWVhbl9sYWdzLmNzdpRoC2gMaA2MHGRhdGEvZGZfZXVyb3BlX21lYW5fbGFn
+cy5jc3aUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMOi9Vc2Vycy9mYW5ueS9EZXNrdG9wL1Byb2pl
+dF9NTC9kYXRhL2V1cm9wZV93ZWVrbHlfbWVhbi5jc3aUaAtoDGgNjBtkYXRhL2V1cm9wZV93ZWVr
+bHlfbWVhbi5jc3aUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMLy9Vc2Vycy9mYW5ueS9EZXNrdG9w
+L1Byb2pldF9NTC9kYXRhL2NvbXBhY3QuY3N2lGgLaAxoDYwQZGF0YS9jb21wYWN0LmNzdpRoD2gQ
+aBFoEGgSTnViaAYpgZR9lChoCYw1L1VzZXJzL2Zhbm55L0Rlc2t0b3AvUHJvamV0X01ML2RhdGEv
+ZnJhbmNlX3dlZWtseS5jc3aUaAtoDGgNjBZkYXRhL2ZyYW5jZV93ZWVrbHkuY3N2lGgPaBBoEWgQ
+aBJOdWJoBimBlH2UKGgJjIEvQXBwbGljYXRpb25zL09yYW5nZS5hcHAvQ29udGVudHMvRnJhbWV3
+b3Jrcy9QeXRob24uZnJhbWV3b3JrL1ZlcnNpb25zLzMuMTEvbGliL3B5dGhvbjMuMTEvc2l0ZS1w
+YWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvaXJpcy50YWKUaAuMD3NhbXBsZS1kYXRhc2V0c5RoDYwI
+aXJpcy50YWKUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMhC9BcHBsaWNhdGlvbnMvT3JhbmdlLmFw
+cC9Db250ZW50cy9GcmFtZXdvcmtzL1B5dGhvbi5mcmFtZXdvcmsvVmVyc2lvbnMvMy4xMS9saWIv
+cHl0aG9uMy4xMS9zaXRlLXBhY2thZ2VzL09yYW5nZS9kYXRhc2V0cy90aXRhbmljLnRhYpRoC2gm
+aA2MC3RpdGFuaWMudGFilGgPaBBoEWgQaBJOdWJoBimBlH2UKGgJjIQvQXBwbGljYXRpb25zL09y
+YW5nZS5hcHAvQ29udGVudHMvRnJhbWV3b3Jrcy9QeXRob24uZnJhbWV3b3JrL1ZlcnNpb25zLzMu
+MTEvbGliL3B5dGhvbjMuMTEvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvaG91c2luZy50
+YWKUaAtoJmgNjAtob3VzaW5nLnRhYpRoD2gQaBFoEGgSTnViaAYpgZR9lChoCYyKL0FwcGxpY2F0
+aW9ucy9PcmFuZ2UuYXBwL0NvbnRlbnRzL0ZyYW1ld29ya3MvUHl0aG9uLmZyYW1ld29yay9WZXJz
+aW9ucy8zLjExL2xpYi9weXRob24zLjExL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2hl
+YXJ0X2Rpc2Vhc2UudGFilGgLaCZoDYwRaGVhcnRfZGlzZWFzZS50YWKUaA9oEGgRaBBoEk51YmgG
+KYGUfZQoaAmMiy9BcHBsaWNhdGlvbnMvT3JhbmdlLmFwcC9Db250ZW50cy9GcmFtZXdvcmtzL1B5
+dGhvbi5mcmFtZXdvcmsvVmVyc2lvbnMvMy4xMS9saWIvcHl0aG9uMy4xMS9zaXRlLXBhY2thZ2Vz
+L09yYW5nZS9kYXRhc2V0cy9icm93bi1zZWxlY3RlZC50YWKUaAtoJmgNjBJicm93bi1zZWxlY3Rl
+ZC50YWKUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMgC9BcHBsaWNhdGlvbnMvT3JhbmdlLmFwcC9D
+b250ZW50cy9GcmFtZXdvcmtzL1B5dGhvbi5mcmFtZXdvcmsvVmVyc2lvbnMvMy4xMS9saWIvcHl0
+aG9uMy4xMS9zaXRlLXBhY2thZ2VzL09yYW5nZS9kYXRhc2V0cy96b28udGFilGgLaCZoDYwHem9v
+LnRhYpRoD2gQaBFoEGgSTnViZYwLcmVjZW50X3VybHOUXZSME3NhdmVkV2lkZ2V0R2VvbWV0cnmU
+Q0IB2dDLAAMAAAAAAAEAAAAmAAAFvAAAA3wAAAABAAAAQgAABbwAAAN8AAAAAAIAAAAFvgAAAAEA
+AABCAAAFvAAAA3yUjAtzaGVldF9uYW1lc5R9lIwGc291cmNllEsAjAN1cmyUaBCMDWRvbWFpbl9l
+ZGl0b3KUfZSMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UKIwVb3Jhbmdld2lk
+Z2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwJdmFyaWFibGVzlF2U
+aER9lGhQXZQoXZQojAlGZWF0dXJlIDGUjBRPcmFuZ2UuZGF0YS52YXJpYWJsZZSMEkNvbnRpbnVv
+dXNWYXJpYWJsZZSTlEsDaBCIZV2UKIwEZGF0ZZRoVowMVGltZVZhcmlhYmxllJOUSwJoEIhlXZQo
+jAluZXdfY2FzZXOUaFhLAGgQiGVdlCiMCm5ld19kZWF0aHOUaFhLA2gQiGVdlCiMCW5ld190ZXN0
+c5RoWEsAaBCIZV2UKIwQbmV3X3ZhY2NpbmF0aW9uc5RoWEsAaBCIZV2UKIwNaG9zcF9wYXRpZW50
+c5RoWEsAaBCIZV2UKIwMaWN1X3BhdGllbnRzlGhYSwBoEIhlXZQojBBzdHJpbmdlbmN5X2luZGV4
+lGhYSwBoEIhlXZQojBFyZXByb2R1Y3Rpb25fcmF0ZZRoWEsAaBCIZV2UKIwLdG90YWxfY2FzZXOU
+aFhLAGgQiGVdlCiMC3RvdGFsX3Rlc3RzlGhYSwBoEIhlXZQojBJ0b3RhbF92YWNjaW5hdGlvbnOU
+aFhLAGgQiGVdlCiMEXBlb3BsZV92YWNjaW5hdGVklGhYSwBoEIhlXZQojA50b3RhbF9ib29zdGVy
+c5RoWEsAaBCIZV2UKIwFbGFnXzGUaFhLAGgQiGVdlCiMBWxhZ18ylGhYSwBoEIhlXZQojAVsYWdf
+M5RoWEsAaBCIZV2UKIwFbGFnXzeUaFhLAGgQiGVdlCiMBmxhZ18xNJRoWEsAaBCIZV2UKIwOcm9s
+bGluZ19tZWFuXzOUaFhLAGgQiGVdlCiMDXJvbGxpbmdfc3RkXzOUaFhLAGgQiGVdlCiMDnJvbGxp
+bmdfbWVhbl83lGhYSwBoEIhlXZQojA1yb2xsaW5nX3N0ZF83lGhYSwBoEIhlXZQojA10YXJnZXRf
+dF9wbHVzlGhYSwFoEIhlXZQojAtkYXRlX3RfcGx1c5RoXEsDaBCIZWVzaEZLAXWMCmF0dHJpYnV0
+ZXOUKIwJRmVhdHVyZSAxlEsChpSMBGRhdGWUSwSGlIwJbmV3X2Nhc2VzlEsChpSMCm5ld19kZWF0
+aHOUSwKGlIwJbmV3X3Rlc3RzlEsChpSMEG5ld192YWNjaW5hdGlvbnOUSwKGlIwNaG9zcF9wYXRp
+ZW50c5RLAoaUjAxpY3VfcGF0aWVudHOUSwKGlIwQc3RyaW5nZW5jeV9pbmRleJRLAoaUjBFyZXBy
+b2R1Y3Rpb25fcmF0ZZRLAoaUjAt0b3RhbF9jYXNlc5RLAoaUjAt0b3RhbF90ZXN0c5RLAoaUjBJ0
+b3RhbF92YWNjaW5hdGlvbnOUSwKGlIwRcGVvcGxlX3ZhY2NpbmF0ZWSUSwKGlIwOdG90YWxfYm9v
+c3RlcnOUSwKGlIwFbGFnXzGUSwKGlIwFbGFnXzKUSwKGlIwFbGFnXzOUSwKGlIwFbGFnXzeUSwKG
+lIwGbGFnXzE0lEsChpSMDnJvbGxpbmdfbWVhbl8zlEsChpSMDXJvbGxpbmdfc3RkXzOUSwKGlIwO
+cm9sbGluZ19tZWFuXzeUSwKGlIwNcm9sbGluZ19zdGRfN5RLAoaUjA10YXJnZXRfdF9wbHVzlEsC
+hpSMC2RhdGVfdF9wbHVzlEsChpR0lIwFbWV0YXOUKYwKY2xhc3NfdmFyc5QpjBJtb2RpZmllZF92
+YXJpYWJsZXOUXZR1YmhLKYGUfZQoaE59lChoUF2UaER9lGhQXZQoXZQojARkYXRllGhcSwBoEIhl
+XZQojAluZXdfY2FzZXOUaFhLAGgQiGVdlCiMCm5ld19kZWF0aHOUaFhLA2gQiGVdlCiMCW5ld190
+ZXN0c5RoWEsAaBCIZV2UKIwQbmV3X3ZhY2NpbmF0aW9uc5RoWEsAaBCIZV2UKIwNaG9zcF9wYXRp
+ZW50c5RoWEsAaBCIZV2UKIwMaWN1X3BhdGllbnRzlGhYSwBoEIhlXZQojBBzdHJpbmdlbmN5X2lu
+ZGV4lGhYSwBoEIhlXZQojBFyZXByb2R1Y3Rpb25fcmF0ZZRoWEsAaBCIZV2UKIwLdG90YWxfY2Fz
+ZXOUaFhLAGgQiGVdlCiMC3RvdGFsX3Rlc3RzlGhYSwBoEIhlXZQojBJ0b3RhbF92YWNjaW5hdGlv
+bnOUaFhLAGgQiGVdlCiMEXBlb3BsZV92YWNjaW5hdGVklGhYSwBoEIhlXZQojA50b3RhbF9ib29z
+dGVyc5RoWEsAaBCIZV2UKIwFbGFnXzGUaFhLAGgQiGVdlCiMBWxhZ18ylGhYSwBoEIhlXZQojAVs
+YWdfM5RoWEsAaBCIZV2UKIwFbGFnXzeUaFhLAGgQiGVdlCiMBmxhZ18xNJRoWEsAaBCIZV2UKIwO
+cm9sbGluZ19tZWFuXzOUaFhLAGgQiGVdlCiMDXJvbGxpbmdfc3RkXzOUaFhLAGgQiGVdlCiMDnJv
+bGxpbmdfbWVhbl83lGhYSwBoEIhlXZQojA1yb2xsaW5nX3N0ZF83lGhYSwBoEIhlXZQojAZtb250
+aHOUaFhLAGgQiGVdlCiMDXRhcmdldF90X3BsdXOUaFhLAWgQiGVdlCiMC2RhdGVfdF9wbHVzlGhc
+SwNoEIhlZXNoRksBdWiNKGjOSwSGlGjQSwKGlGjSSwKGlGjUSwKGlGjWSwKGlGjYSwKGlGjaSwKG
+lGjcSwKGlGjeSwKGlGjgSwKGlGjiSwKGlGjkSwKGlGjmSwKGlGjoSwKGlGjqSwKGlGjsSwKGlGju
+SwKGlGjwSwKGlGjySwKGlGj0SwKGlGj2SwKGlGj4SwKGlGj6SwKGlGj8SwKGlGj+SwKGlGoAAQAA
+SwSGlHSUaMMpaMQpaMVdlHViaEspgZR9lChoTn2UKIwJdmFyaWFibGVzlF2UjA1kb21haW5fZWRp
+dG9ylH2UaiABAABdlChdlCiMCUZlYXR1cmUgMZRoWEsAaBCIZV2UKIwEZGF0ZZRoXEsAaBCIZV2U
+KIwJbmV3X2Nhc2VzlGhYSwBoEIhlXZQojApuZXdfZGVhdGhzlGhYSwFoEIhlXZQojAluZXdfdGVz
+dHOUaFhLAGgQiGVdlCiMEG5ld192YWNjaW5hdGlvbnOUaFhLAGgQiGVdlCiMDWhvc3BfcGF0aWVu
+dHOUaFhLAGgQiGVdlCiMDGljdV9wYXRpZW50c5RoWEsAaBCIZV2UKIwQc3RyaW5nZW5jeV9pbmRl
+eJRoWEsAaBCIZV2UKIwRcmVwcm9kdWN0aW9uX3JhdGWUaFhLAGgQiGVdlCiMC3RvdGFsX2Nhc2Vz
+lGhYSwBoEIhlXZQojAt0b3RhbF90ZXN0c5RoWEsAaBCIZV2UKIwSdG90YWxfdmFjY2luYXRpb25z
+lGhYSwBoEIhlXZQojBFwZW9wbGVfdmFjY2luYXRlZJRoWEsAaBCIZV2UKIwOdG90YWxfYm9vc3Rl
+cnOUaFhLAGgQiGVlc2hGSwF1aI0ojAlGZWF0dXJlIDGUSwKGlIwEZGF0ZZRLBIaUjAluZXdfY2Fz
+ZXOUSwKGlIwKbmV3X2RlYXRoc5RLAoaUjAluZXdfdGVzdHOUSwKGlIwQbmV3X3ZhY2NpbmF0aW9u
+c5RLAoaUjA1ob3NwX3BhdGllbnRzlEsChpSMDGljdV9wYXRpZW50c5RLAoaUjBBzdHJpbmdlbmN5
+X2luZGV4lEsChpSMEXJlcHJvZHVjdGlvbl9yYXRllEsChpSMC3RvdGFsX2Nhc2VzlEsChpSMC3Rv
+dGFsX3Rlc3RzlEsChpSMEnRvdGFsX3ZhY2NpbmF0aW9uc5RLAoaUjBFwZW9wbGVfdmFjY2luYXRl
+ZJRLAoaUjA50b3RhbF9ib29zdGVyc5RLAoaUdJRowyloxCloxV2UdWJldS4=
+</properties>
+		<properties node_id="1" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x05\xbb\x00\x00\x03{\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x05\xbb\x00\x00\x03{\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x05\xbb\x00\x00\x03{', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np\nimport pandas as pd\nfrom sklearn.model_selection import TimeSeriesSplit\nfrom sklearn.linear_model import LinearRegression\nfrom sklearn.metrics import mean_squared_error, r2_score, root_mean_squared_error\n\nfrom Orange.data import Table, Domain, ContinuousVariable\n\n# --- Conversion du tableau Orange en numpy ---\nX = in_data.X\ny = in_data.Y\n\n# --- Configuration de la validation temporelle ---\ntscv = TimeSeriesSplit(n_splits=3)\n\nmodel = LinearRegression()\n\nmse_scores = []\nrmse_scores = []\nr2_scores = []\n\nprint(" Time Series Cross Validation (5 splits)")\nprint("=========================================")\n\n# --- Boucle sur les splits temporels ---\nfor fold, (train_idx, test_idx) in enumerate(tscv.split(X)):\n    X_train, X_test = X[train_idx], X[test_idx]\n    y_train, y_test = y[train_idx], y[test_idx]\n\n    model.fit(X_train, y_train)\n    y_pred = model.predict(X_test)\n\n    mse = mean_squared_error(y_test, y_pred)\n    r2 = r2_score(y_test, y_pred)\n    rmse = root_mean_squared_error(y_test, y_pred)\n\n    mse_scores.append(mse)\n    r2_scores.append(r2)\n    rmse_scores.append(rmse)\n\n    print(f"Split {fold+1}: MSE = {mse:.4f}, R² = {r2:.4f}, RMSE = {r2:.4f}")\n\n# --- Résumé des performances ---\nprint("=========================================")\nprint(f" Moyenne MSE : {np.mean(mse_scores):.4f}")\nprint(f" Moyenne R²  : {np.mean(r2_scores):.4f}")\n\n# --- Préparation des résultats pour sortie (facultatif) ---\ndomain = Domain([ContinuousVariable("MSE"), ContinuousVariable("R2"),ContinuousVariable("RMSE") ])\nresults = np.column_stack((mse_scores, r2_scores, rmse_scores))\nout_data = Table(domain, results)', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01\xf8\x00\x00\x01\x0b\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="2" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x01\x00\x00\x00&amp;\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="3" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00b\x00\x00\x00%\x00\x00\x05\xbd\x00\x00\x03\\\x00\x00\x00b\x00\x00\x00A\x00\x00\x05\xbd\x00\x00\x03\\\x00\x00\x00\x00\x00\x00\x00\x00\x05\xbe\x00\x00\x00b\x00\x00\x00A\x00\x00\x05\xbd\x00\x00\x03\\', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np\nimport pandas as pd\nfrom sklearn.model_selection import TimeSeriesSplit\nfrom sklearn.ensemble import RandomForestRegressor\nfrom sklearn.metrics import mean_squared_error, r2_score, root_mean_squared_error\n\nfrom Orange.data import Table, Domain, ContinuousVariable\n\n# --- Conversion du tableau Orange en numpy ---\nX = in_data.X\ny = in_data.Y\n\n# --- Configuration de la validation temporelle ---\ntscv = TimeSeriesSplit(n_splits=3)\n\nmodel = RandomForestRegressor(n_estimators=100, random_state=42)\n\nmse_scores = []\nrmse_scores = []\nr2_scores = []\n\nprint(" Time Series Cross Validation (5 splits)")\nprint("=========================================")\n\n# --- Boucle sur les splits temporels ---\nfor fold, (train_idx, test_idx) in enumerate(tscv.split(X)):\n    X_train, X_test = X[train_idx], X[test_idx]\n    y_train, y_test = y[train_idx], y[test_idx]\n\n    model.fit(X_train, y_train)\n    y_pred = model.predict(X_test)\n\n    mse = mean_squared_error(y_test, y_pred)\n    r2 = r2_score(y_test, y_pred)\n    rmse = root_mean_squared_error(y_test, y_pred)\n\n    mse_scores.append(mse)\n    r2_scores.append(r2)\n    rmse_scores.append(rmse)\n\n    print(f"Split {fold+1}: MSE = {mse:.4f}, R² = {r2:.4f}, RMSE = {r2:.4f}")\n\n# --- Résumé des performances ---\nprint("=========================================")\nprint(f" Moyenne MSE : {np.mean(mse_scores):.4f}")\nprint(f" Moyenne R²  : {np.mean(r2_scores):.4f}")\n\n# --- Préparation des résultats pour sortie (facultatif) ---\ndomain = Domain([ContinuousVariable("MSE"), ContinuousVariable("R2"),ContinuousVariable("RMSE") ])\nresults = np.column_stack((mse_scores, r2_scores, rmse_scores))\nout_data = Table(domain, results)', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xab\x00\x00\x00k\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="4" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x01\x00\x00\x00&amp;\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="5" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x05\xbb\x00\x00\x03{\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x05\xbb\x00\x00\x03{\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x05\xbb\x00\x00\x03{', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np\nimport pandas as pd\nfrom sklearn.model_selection import TimeSeriesSplit\nfrom sklearn.svm import SVR\nfrom sklearn.metrics import mean_squared_error, r2_score, root_mean_squared_error\n\nfrom Orange.data import Table, Domain, ContinuousVariable\n\n# --- Conversion du tableau Orange en numpy ---\nX = in_data.X\ny = in_data.Y\n\n# --- Configuration de la validation temporelle ---\ntscv = TimeSeriesSplit(n_splits=3)\n\nmodel = SVR()\n\nmse_scores = []\nrmse_scores = []\nr2_scores = []\n\nprint(" Time Series Cross Validation (5 splits)")\nprint("=========================================")\n\n# --- Boucle sur les splits temporels ---\nfor fold, (train_idx, test_idx) in enumerate(tscv.split(X)):\n    X_train, X_test = X[train_idx], X[test_idx]\n    y_train, y_test = y[train_idx], y[test_idx]\n\n    model.fit(X_train, y_train)\n    y_pred = model.predict(X_test)\n\n    mse = mean_squared_error(y_test, y_pred)\n    r2 = r2_score(y_test, y_pred)\n    rmse = root_mean_squared_error(y_test, y_pred)\n\n    mse_scores.append(mse)\n    r2_scores.append(r2)\n    rmse_scores.append(rmse)\n\n    print(f"Split {fold+1}: MSE = {mse:.4f}, R² = {r2:.4f}, RMSE = {r2:.4f}")\n\n# --- Résumé des performances ---\nprint("=========================================")\nprint(f" Moyenne MSE : {np.mean(mse_scores):.4f}")\nprint(f" Moyenne R²  : {np.mean(r2_scores):.4f}")\n\n# --- Préparation des résultats pour sortie (facultatif) ---\ndomain = Domain([ContinuousVariable("MSE"), ContinuousVariable("R2"),ContinuousVariable("RMSE") ])\nresults = np.column_stack((mse_scores, r2_scores, rmse_scores))\nout_data = Table(domain, results)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xab\x00\x00\x00k\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="6" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x01\x00\x00\x00&amp;\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="7" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x05\xbd\x00\x00\x03}\x00\x00\x01E\x00\x00\x00\xb6\x00\x00\x04d\x00\x00\x03\r\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x05\xbd\x00\x00\x03}', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np\nimport pandas as pd\nfrom sklearn.model_selection import TimeSeriesSplit\nfrom sklearn.linear_model import Lasso\nfrom sklearn.metrics import mean_squared_error, r2_score, root_mean_squared_error\n\nfrom Orange.data import Table, Domain, ContinuousVariable\n\n# --- Conversion du tableau Orange en numpy ---\nX = in_data.X\ny = in_data.Y\n\n# --- Configuration de la validation temporelle ---\ntscv = TimeSeriesSplit(n_splits=3)\n\nmodel = Lasso(alpha=0.01)\n\nmse_scores = []\nrmse_scores = []\nr2_scores = []\n\nprint(" Time Series Cross Validation (5 splits)")\nprint("=========================================")\n\n# --- Boucle sur les splits temporels ---\nfor fold, (train_idx, test_idx) in enumerate(tscv.split(X)):\n    X_train, X_test = X[train_idx], X[test_idx]\n    y_train, y_test = y[train_idx], y[test_idx]\n\n    model.fit(X_train, y_train)\n    y_pred = model.predict(X_test)\n\n    mse = mean_squared_error(y_test, y_pred)\n    r2 = r2_score(y_test, y_pred)\n    rmse = root_mean_squared_error(y_test, y_pred)\n\n    mse_scores.append(mse)\n    r2_scores.append(r2)\n    rmse_scores.append(rmse)\n\n    print(f"Split {fold+1}: MSE = {mse:.4f}, R² = {r2:.4f}, RMSE = {r2:.4f}")\n\n# --- Résumé des performances ---\nprint("=========================================")\nprint(f" Moyenne MSE : {np.mean(mse_scores):.4f}")\nprint(f" Moyenne R²  : {np.mean(r2_scores):.4f}")\n\n# --- Préparation des résultats pour sortie (facultatif) ---\ndomain = Domain([ContinuousVariable("MSE"), ContinuousVariable("R2"),ContinuousVariable("RMSE") ])\nresults = np.column_stack((mse_scores, r2_scores, rmse_scores))\nout_data = Table(domain, results)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xab\x00\x00\x00k\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="8" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x01\x00\x00\x00&amp;\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="9" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x05\xbd\x00\x00\x03}\x00\x00\x01E\x00\x00\x00\xb6\x00\x00\x04d\x00\x00\x03\r\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x05\xbd\x00\x00\x03}', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np\nimport pandas as pd\nfrom sklearn.model_selection import TimeSeriesSplit\nfrom xgboost import XGBRegressor\nfrom sklearn.metrics import mean_squared_error, r2_score, root_mean_squared_error\n\nfrom Orange.data import Table, Domain, ContinuousVariable\n\n# --- Conversion du tableau Orange en numpy ---\nX = in_data.X\ny = in_data.Y\n\n# --- Configuration de la validation temporelle ---\ntscv = TimeSeriesSplit(n_splits=3)\n\nmodel = XGBRegressor(n_estimators=500, learning_rate=0.05, max_depth=5, random_state=42, verbosity=0)\n\nmse_scores = []\nrmse_scores = []\nr2_scores = []\n\nprint(" Time Series Cross Validation (5 splits)")\nprint("=========================================")\n\n# --- Boucle sur les splits temporels ---\nfor fold, (train_idx, test_idx) in enumerate(tscv.split(X)):\n    X_train, X_test = X[train_idx], X[test_idx]\n    y_train, y_test = y[train_idx], y[test_idx]\n\n    model.fit(X_train, y_train)\n    y_pred = model.predict(X_test)\n\n    mse = mean_squared_error(y_test, y_pred)\n    r2 = r2_score(y_test, y_pred)\n    rmse = root_mean_squared_error(y_test, y_pred)\n\n    mse_scores.append(mse)\n    r2_scores.append(r2)\n    rmse_scores.append(rmse)\n\n    print(f"Split {fold+1}: MSE = {mse:.4f}, R² = {r2:.4f}, RMSE = {rmse:.4f}")\n\n# --- Résumé des performances ---\nprint("=========================================")\nprint(f" Moyenne MSE : {np.mean(mse_scores):.4f}")\nprint(f" Moyenne R²  : {np.mean(r2_scores):.4f}")\n\n# --- Préparation des résultats pour sortie (facultatif) ---\ndomain = Domain([ContinuousVariable("MSE"), ContinuousVariable("R2"),ContinuousVariable("RMSE") ])\nresults = np.column_stack((mse_scores, r2_scores, rmse_scores))\nout_data = Table(domain, results)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xab\x00\x00\x00k\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="10" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00z\x00\x00\x01\x0e\x00\x00\x065\x00\x00\x04d\x00\x00\x00z\x00\x00\x01*\x00\x00\x065\x00\x00\x04d\x00\x00\x00\x00\x00\x00\x00\x00\x05\xbe\x00\x00\x00z\x00\x00\x01*\x00\x00\x065\x00\x00\x04d', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="11" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x01\x00\x00\x00&amp;\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np\nimport pandas as pd\nimport os\nfrom sklearn.model_selection import TimeSeriesSplit\nfrom sklearn.neural_network import MLPRegressor\nfrom sklearn.metrics import mean_squared_error, r2_score, root_mean_squared_error\nfrom sklearn.preprocessing import StandardScaler\n\nfrom Orange.data import Table, Domain, ContinuousVariable\n\ncwd = os.getcwd()\nprint(cwd)\n\n# --- Conversion du tableau Orange en numpy ---\nX = in_data.X\ny = in_data.Y.reshape(-1, 1) # &lt;-- Remodelage (reshape) de Y pour le scaler\n\n# --- Configuration de la validation temporelle et du modèle ---\ntscv = TimeSeriesSplit(n_splits=3)\n\n# Instanciation du modèle (paramètres standard pour le moment)\nmodel = MLPRegressor(hidden_layer_sizes=(64, 64), max_iter=1000, random_state=42)\n\n# Instanciation des scalers\nX_scaler = StandardScaler()\ny_scaler = StandardScaler()\n\nmse_scores = []\nrmse_scores = []\nr2_scores = []\n\nprint(" Time Series Cross Validation (5 splits) avec Scaling")\nprint("=====================================================")\n\n# --- Boucle sur les splits temporels ---\nfor fold, (train_idx, test_idx) in enumerate(tscv.split(X)):\n    # 1. Séparation des données\n    X_train, X_test = X[train_idx], X[test_idx]\n    y_train, y_test = y[train_idx], y[test_idx]\n\n    X_train_scaled = X_scaler.fit_transform(X_train)\n    y_train_scaled = y_scaler.fit_transform(y_train)\n    X_test_scaled = X_scaler.transform(X_test)\n\n    model.fit(X_train_scaled, y_train_scaled.ravel()) # .ravel() car MLPRegressor attend un tableau 1D\n    y_pred_scaled = model.predict(X_test_scaled)\n    y_pred = y_scaler.inverse_transform(y_pred_scaled.reshape(-1, 1))\n\n    mse = mean_squared_error(y_test, y_pred)\n    r2 = r2_score(y_test, y_pred)\n    rmse = root_mean_squared_error(y_test, y_pred)\n\n    mse_scores.append(mse)\n    r2_scores.append(r2)\n    rmse_scores.append(rmse)\n\n    print(f"Split {fold+1}: MSE = {mse:.4f}, R² = {r2:.4f}, RMSE = {rmse:.4f}")\n\n# --- Résumé des performances (inchangé) ---\nprint("=====================================================")\nprint(f" Moyenne MSE : {np.mean(mse_scores):.4f}")\nprint(f" Moyenne R²  : {np.mean(r2_scores):.4f}")\nprint(f" Écart-type R² : {np.std(r2_scores):.4f}")\n\n# --- Préparation des résultats pour sortie (facultatif) ---\ndomain = Domain([ContinuousVariable("MSE"), ContinuousVariable("R2"),ContinuousVariable("RMSE") ])\nresults = np.column_stack((mse_scores, r2_scores, rmse_scores))\nout_data = Table(domain, results)', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x02,\x00\x00\x01\x15\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="12" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x01\x00\x00\x00&amp;\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="13" format="pickle">gASVUw4AAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIxEL1VzZXJzL2Zhbm55L0Rlc2t0b3AvUHJvamV0X01ML2RhdGEvZGZfZXVyb3BlX21lYW5f
+bGFnc19zZWxlY3RlZC5jc3aUjAZwcmVmaXiUjAdiYXNlZGlylIwHcmVscGF0aJSMJWRhdGEvZGZf
+ZXVyb3BlX21lYW5fbGFnc19zZWxlY3RlZC5jc3aUjAV0aXRsZZSMAJSMBXNoZWV0lGgQjAtmaWxl
+X2Zvcm1hdJROdWJoBimBlH2UKGgJjDovVXNlcnMvZmFubnkvRGVza3RvcC9Qcm9qZXRfTUwvZGF0
+YS9ldXJvcGVfd2Vla2x5X21lYW4uY3N2lGgLaAxoDYwbZGF0YS9ldXJvcGVfd2Vla2x5X21lYW4u
+Y3N2lGgPaBBoEWgQaBJOdWJoBimBlH2UKGgJjC8vVXNlcnMvZmFubnkvRGVza3RvcC9Qcm9qZXRf
+TUwvZGF0YS9jb21wYWN0LmNzdpRoC2gMaA2MEGRhdGEvY29tcGFjdC5jc3aUaA9oEGgRaBBoEk51
+YmgGKYGUfZQoaAmMNS9Vc2Vycy9mYW5ueS9EZXNrdG9wL1Byb2pldF9NTC9kYXRhL2ZyYW5jZV93
+ZWVrbHkuY3N2lGgLaAxoDYwWZGF0YS9mcmFuY2Vfd2Vla2x5LmNzdpRoD2gQaBFoEGgSTnViaAYp
+gZR9lChoCYyBL0FwcGxpY2F0aW9ucy9PcmFuZ2UuYXBwL0NvbnRlbnRzL0ZyYW1ld29ya3MvUHl0
+aG9uLmZyYW1ld29yay9WZXJzaW9ucy8zLjExL2xpYi9weXRob24zLjExL3NpdGUtcGFja2FnZXMv
+T3JhbmdlL2RhdGFzZXRzL2lyaXMudGFilGgLjA9zYW1wbGUtZGF0YXNldHOUaA2MCGlyaXMudGFi
+lGgPaBBoEWgQaBJOdWJoBimBlH2UKGgJjIQvQXBwbGljYXRpb25zL09yYW5nZS5hcHAvQ29udGVu
+dHMvRnJhbWV3b3Jrcy9QeXRob24uZnJhbWV3b3JrL1ZlcnNpb25zLzMuMTEvbGliL3B5dGhvbjMu
+MTEvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvdGl0YW5pYy50YWKUaAtoImgNjAt0aXRh
+bmljLnRhYpRoD2gQaBFoEGgSTnViaAYpgZR9lChoCYyEL0FwcGxpY2F0aW9ucy9PcmFuZ2UuYXBw
+L0NvbnRlbnRzL0ZyYW1ld29ya3MvUHl0aG9uLmZyYW1ld29yay9WZXJzaW9ucy8zLjExL2xpYi9w
+eXRob24zLjExL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2hvdXNpbmcudGFilGgLaCJo
+DYwLaG91c2luZy50YWKUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMii9BcHBsaWNhdGlvbnMvT3Jh
+bmdlLmFwcC9Db250ZW50cy9GcmFtZXdvcmtzL1B5dGhvbi5mcmFtZXdvcmsvVmVyc2lvbnMvMy4x
+MS9saWIvcHl0aG9uMy4xMS9zaXRlLXBhY2thZ2VzL09yYW5nZS9kYXRhc2V0cy9oZWFydF9kaXNl
+YXNlLnRhYpRoC2giaA2MEWhlYXJ0X2Rpc2Vhc2UudGFilGgPaBBoEWgQaBJOdWJoBimBlH2UKGgJ
+jIsvQXBwbGljYXRpb25zL09yYW5nZS5hcHAvQ29udGVudHMvRnJhbWV3b3Jrcy9QeXRob24uZnJh
+bWV3b3JrL1ZlcnNpb25zLzMuMTEvbGliL3B5dGhvbjMuMTEvc2l0ZS1wYWNrYWdlcy9PcmFuZ2Uv
+ZGF0YXNldHMvYnJvd24tc2VsZWN0ZWQudGFilGgLaCJoDYwSYnJvd24tc2VsZWN0ZWQudGFilGgP
+aBBoEWgQaBJOdWJoBimBlH2UKGgJjIAvQXBwbGljYXRpb25zL09yYW5nZS5hcHAvQ29udGVudHMv
+RnJhbWV3b3Jrcy9QeXRob24uZnJhbWV3b3JrL1ZlcnNpb25zLzMuMTEvbGliL3B5dGhvbjMuMTEv
+c2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvem9vLnRhYpRoC2giaA2MB3pvby50YWKUaA9o
+EGgRaBBoEk51YmWMC3JlY2VudF91cmxzlF2UjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywAD
+AAAAAAAAAAAAJQAABb0AAAO7AAAAAAAAAEEAAAW7AAADewAAAAACAAAABb4AAAAAAAAAQQAABb0A
+AAO7lIwLc2hlZXRfbmFtZXOUfZSMBnNvdXJjZZRLAIwDdXJslGgQjA1kb21haW5fZWRpdG9ylH2U
+jAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0
+aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCXZhcmlhYmxlc5RdlGhAfZRoTF2U
+KF2UKIwJRmVhdHVyZSAxlIwUT3JhbmdlLmRhdGEudmFyaWFibGWUjBJDb250aW51b3VzVmFyaWFi
+bGWUk5RLA2gQiGVdlCiMBGRhdGWUaFKMDFRpbWVWYXJpYWJsZZSTlEsCaBCIZV2UKIwJbmV3X2Nh
+c2VzlGhUSwBoEIhlXZQojApuZXdfZGVhdGhzlGhUSwFoEIhlXZQojAluZXdfdGVzdHOUaFRLAGgQ
+iGVdlCiMEG5ld192YWNjaW5hdGlvbnOUaFRLAGgQiGVdlCiMDWhvc3BfcGF0aWVudHOUaFRLAGgQ
+iGVdlCiMDGljdV9wYXRpZW50c5RoVEsAaBCIZV2UKIwQc3RyaW5nZW5jeV9pbmRleJRoVEsAaBCI
+ZV2UKIwRcmVwcm9kdWN0aW9uX3JhdGWUaFRLAGgQiGVdlCiMC3RvdGFsX2Nhc2VzlGhUSwBoEIhl
+XZQojAt0b3RhbF90ZXN0c5RoVEsAaBCIZV2UKIwSdG90YWxfdmFjY2luYXRpb25zlGhUSwBoEIhl
+XZQojBFwZW9wbGVfdmFjY2luYXRlZJRoVEsAaBCIZV2UKIwOdG90YWxfYm9vc3RlcnOUaFRLAGgQ
+iGVdlCiMBWxhZ18xlGhUSwBoEIhlXZQojAVsYWdfMpRoVEsAaBCIZV2UKIwFbGFnXzOUaFRLAGgQ
+iGVdlCiMBWxhZ183lGhUSwBoEIhlXZQojAZsYWdfMTSUaFRLAGgQiGVdlCiMDnJvbGxpbmdfbWVh
+bl8zlGhUSwBoEIhlXZQojA1yb2xsaW5nX3N0ZF8zlGhUSwBoEIhlXZQojA5yb2xsaW5nX21lYW5f
+N5RoVEsAaBCIZV2UKIwNcm9sbGluZ19zdGRfN5RoVEsAaBCIZV2UKIwNdGFyZ2V0X3RfcGx1c5Ro
+VEsDaBCIZV2UKIwLZGF0ZV90X3BsdXOUaFhLA2gQiGVlc2hCSwF1jAphdHRyaWJ1dGVzlChoUUsC
+hpRoVksEhpRoWksChpRoXEsChpRoXksChpRoYEsChpRoYksChpRoZEsChpRoZksChpRoaEsChpRo
+aksChpRobEsChpRobksChpRocEsChpRocksChpRodEsChpRodksChpRoeEsChpRoeksChpRofEsC
+hpRofksChpRogEsChpRogksChpRohEsChpRohksChpRoiEsChpR0lIwFbWV0YXOUKYwKY2xhc3Nf
+dmFyc5QpjBJtb2RpZmllZF92YXJpYWJsZXOUXZR1YmhHKYGUfZQoaEp9lChoTF2UaEB9lGhMXZQo
+XZQojAlGZWF0dXJlIDGUaFRLAGgQiGVdlCiMBGRhdGWUaFhLAGgQiGVdlCiMCW5ld19jYXNlc5Ro
+VEsAaBCIZV2UKIwKbmV3X2RlYXRoc5RoVEsBaBCIZV2UKIwJbmV3X3Rlc3RzlGhUSwBoEIhlXZQo
+jBBuZXdfdmFjY2luYXRpb25zlGhUSwBoEIhlXZQojA1ob3NwX3BhdGllbnRzlGhUSwBoEIhlXZQo
+jAxpY3VfcGF0aWVudHOUaFRLAGgQiGVdlCiMEHN0cmluZ2VuY3lfaW5kZXiUaFRLAGgQiGVdlCiM
+EXJlcHJvZHVjdGlvbl9yYXRllGhUSwBoEIhlXZQojAt0b3RhbF9jYXNlc5RoVEsAaBCIZV2UKIwL
+dG90YWxfdGVzdHOUaFRLAGgQiGVdlCiMEnRvdGFsX3ZhY2NpbmF0aW9uc5RoVEsAaBCIZV2UKIwR
+cGVvcGxlX3ZhY2NpbmF0ZWSUaFRLAGgQiGVdlCiMDnRvdGFsX2Jvb3N0ZXJzlGhUSwBoEIhlZXNo
+QksBdWiJKIwJRmVhdHVyZSAxlEsChpSMBGRhdGWUSwSGlIwJbmV3X2Nhc2VzlEsChpSMCm5ld19k
+ZWF0aHOUSwKGlIwJbmV3X3Rlc3RzlEsChpSMEG5ld192YWNjaW5hdGlvbnOUSwKGlIwNaG9zcF9w
+YXRpZW50c5RLAoaUjAxpY3VfcGF0aWVudHOUSwKGlIwQc3RyaW5nZW5jeV9pbmRleJRLAoaUjBFy
+ZXByb2R1Y3Rpb25fcmF0ZZRLAoaUjAt0b3RhbF9jYXNlc5RLAoaUjAt0b3RhbF90ZXN0c5RLAoaU
+jBJ0b3RhbF92YWNjaW5hdGlvbnOUSwKGlIwRcGVvcGxlX3ZhY2NpbmF0ZWSUSwKGlIwOdG90YWxf
+Ym9vc3RlcnOUSwKGlHSUaKUpaKYpaKddlHViZXUu
+</properties>
+		<properties node_id="14" format="literal">{'attribute': 'date', 'autocommit': True, 'controlAreaVisible': True, 'implied_sequence': 0, 'include_extra_part': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x023\x00\x00\x01"\x00\x00\x03v\x00\x00\x02\x86\x00\x00\x023\x00\x00\x01&gt;\x00\x00\x03v\x00\x00\x02\x86\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x023\x00\x00\x01&gt;\x00\x00\x03v\x00\x00\x02\x86', 'start_date': (2000, 1, 1), 'start_time': (0, 0, 0), 'steps': 1, 'unit': 'Seconds', '__version__': 1}</properties>
+		<properties node_id="15" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'd': 0, 'forecast_confint': 95, 'forecast_steps': 1, 'learner_name': '', 'p': 1, 'q': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02X\x00\x00\x01-\x00\x00\x03Q\x00\x00\x02z\x00\x00\x02X\x00\x00\x01I\x00\x00\x03Q\x00\x00\x02z\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x02X\x00\x00\x01I\x00\x00\x03Q\x00\x00\x02z', '__version__': 1}</properties>
+		<properties node_id="16" format="pickle">gASVPAIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAAAAAAAAAAAJQAABb0AAAO7AAABOAAAAOgAAARxAAAC2wAAAAACAAAABb4AAAAA
+AAAAQQAABb0AAAO7lIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5n
+ZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lIwGdmFsdWVzlH2UKIwFYXR0cnOUXZRd
+lIwUT3JhbmdlLmRhdGEudmFyaWFibGWUjA1tYWtlX3ZhcmlhYmxllJOUaBGMEkNvbnRpbnVvdXNW
+YXJpYWJsZZSTlE6MCm5ld19kZWF0aHOUh5RSlH2UKIwFX25hbWWUaBaMDl9jb21wdXRlX3ZhbHVl
+lE6MC3Vua25vd25fc3RylI+UKIwAlE6MAS6UjAE/lIwCTkGUR3/4AAAAAAAAjAF+lIwDbmFulJCM
+D3NvdXJjZV92YXJpYWJsZZROjAZzcGFyc2WUiYwKYXR0cmlidXRlc5R9lIwPX21heF9yb3VuZF9k
+aWZmlEc7kuO0Cg6bT4wTX251bWJlcl9vZl9kZWNpbWFsc5RLD4wPYWRqdXN0X2RlY2ltYWxzlEsB
+jAtfZm9ybWF0X3N0cpSMAiVnlHViYWGMCGlzX2xvZ2l0lF2UiWGMCXBsb3RfdHlwZZRdlIwEbGlu
+ZZRhaARLAnVzYmF1Lg==
+</properties>
+		<properties node_id="17" format="literal">{'autocommit': False, 'controlAreaVisible': True, 'forecast_steps': 3, 'n_folds': 10, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x01\x00\x00\x00&amp;\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|\x00\x00\x00\x00\x02\x00\x00\x00\x05\xbe\x00\x00\x00\x01\x00\x00\x00B\x00\x00\x05\xbc\x00\x00\x03|', '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
