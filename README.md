@@ -8,8 +8,6 @@ Type: Time-series data
 Frequency: Daily COVID-19 case reports
 Coverage: Global and regional infection data
 
-Note: Large data files are not stored in this repository due to size constraints.
-
 # Technologies
 
 Python 3.8+
