@@ -13,8 +13,7 @@ Coverage: Global and regional infection data
 Python 3.8+
 Data Processing: pandas, numpy
 Visualization: matplotlib, seaborn
-Machine Learning: scikit-learn, statsmodels
-Time-Series: Prophet, pmdarima
+Machine Learning: scikit-learn
 
 # Data Acquisition
 Download the WHO COVID-19 dataset from https://covid19.who.int/data.
